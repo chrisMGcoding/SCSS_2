@@ -3,6 +3,7 @@
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 .fa,
 .fas,
 .far,
@@ -6117,8 +6118,75 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-h2 {
-  background-color: red;
+@media (min-width: 1025px) {
+  header {
+    height: 40px;
+    background-color: #00004C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+  }
+  header .header_left > p > a {
+    color: white;
+    text-decoration: none;
+  }
+  header .header_right > ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header .header_right > ul li > a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  header {
+    height: 40px;
+    background-color: #00004C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+  }
+  header .header_left > p > a {
+    color: white;
+    text-decoration: none;
+  }
+  header .header_right > ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header .header_right > ul li > a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  header {
+    height: 40px;
+    background-color: #00004C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 10px;
+  }
+  header .header_left > p > a {
+    color: white;
+    text-decoration: none;
+  }
+  header .header_right > ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header .header_right > ul li > a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
