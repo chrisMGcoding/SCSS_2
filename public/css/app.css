@@ -6296,5 +6296,165 @@ readers do not read off random characters that represent icons */
     font-family: "Ubuntu", sans-serif;
   }
 }
+@media (min-width: 1025px) {
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    width: auto;
+  }
+  .second .second_presentation {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  .second .second_presentation .text {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 20px;
+  }
+  .second .second_presentation .text h4 {
+    font-size: 40px;
+    width: 60%;
+  }
+  .second .second_presentation .text p {
+    line-height: 30px;
+    width: 60%;
+  }
+  .second .second_presentation .photo {
+    width: 50%;
+    padding-top: 20px;
+  }
+  .second .second_presentation .photo img {
+    border-radius: 50%;
+    width: 350px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+  }
+  .second .second_presentation {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  .second .second_presentation .text {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 20px;
+  }
+  .second .second_presentation .text h4 {
+    font-size: 30px;
+    width: 60%;
+  }
+  .second .second_presentation .text p {
+    line-height: 20px;
+    width: 80%;
+    font-size: 15px;
+  }
+  .second .second_presentation .photo {
+    width: 55%;
+    padding-top: 20px;
+  }
+  .second .second_presentation .photo img {
+    border-radius: 50%;
+    width: 270px;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+  }
+  .second .second_presentation {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_presentation .text {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .second .second_presentation .text h4 {
+    font-size: 15px;
+    width: 80%;
+  }
+  .second .second_presentation .text p {
+    line-height: 15px;
+    width: 80%;
+    font-size: 12px;
+  }
+  .second .second_presentation .photo {
+    padding-top: 2px;
+  }
+  .second .second_presentation .photo img {
+    border-radius: 50%;
+    width: 100px;
+  }
+}
+@media (min-width: 1025px) {
+  footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer i {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer i {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  footer i {
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
